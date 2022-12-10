@@ -1,0 +1,30 @@
+# STEP 1
+### Import necessary modules
+import secrets
+##let import python built-in string module
+import string
+
+
+#STEP 2
+### Define the alphabet ||| the string  module provide string constants that we can use to define alphabet
+### we will use the following string constants
+
+letters = string.ascii_letters
+digits = string.digits
+special_chars = pounctuation 
+
+
+#STEP 3
+###Let concatenate the above strings to get alphabet
+alphabet = letters + digits + special_chars
+### let specify password length 
+pwd_length = 12
+
+#STEP 4
+###Finally let run following code cell to generate  password
+pwd =""
+for i in range (pwd_length):
+    pwd +=''.join(sercerts.choice(alphabet))
+    print(pwd)
+    
+    
